@@ -1,4 +1,4 @@
-# hezi-demo-for-ios
+# hezi-SDK-for-ios
 ### 1.导入SDK
 
  下载[HeziSDK.zip文件](http://help.huodonghezi.com/hc/kb/article/195000/)，将zip文件解压，得到HeziSDK文件夹，将HeziSDK文件夹拖入工程即可。
@@ -78,10 +78,12 @@ banner.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH/2+5);
 2. 使用方法
 
 - 在```AppDelegate.m```导入```HeziSDKCrashLogger.h```
+
 	``` objectivec
 		#import "HeziSDKCrashLogger.h"
 	```
 - 在 ```- (void)applicationDidBecomeActive:(UIApplication *)application```方法中添加日志上传方法。
+
 	```objectivec
 	- (void)applicationDidBecomeActive:(UIApplication *)application {
 		 [HeziSDKCrashLogger uploadCrashLog];
@@ -104,4 +106,5 @@ debug模式下可以查看请求信息和规则的匹配。
 
 ##### 更新记录
 1.2.0  新增banner控件
+
 1.2.1  新增崩溃日志上传功能，debug模式
