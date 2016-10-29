@@ -82,6 +82,7 @@ banner.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH/2+5);
 		#import "HeziSDKCrashLogger.h"
 	```
 - 在 ```- (void)applicationDidBecomeActive:(UIApplication *)application```方法中添加日志上传方法。
+
 	```objectivec
 	- (void)applicationDidBecomeActive:(UIApplication *)application {
 		 [HeziSDKCrashLogger uploadCrashLog];
@@ -104,4 +105,5 @@ debug模式下可以查看请求信息和规则的匹配。
 
 ##### 更新记录
 1.2.0  新增banner控件
+
 1.2.1  新增崩溃日志上传功能，debug模式
