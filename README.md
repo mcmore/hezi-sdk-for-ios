@@ -1,4 +1,4 @@
-# hezi-demo-for-ios
+# hezi-SDK-for-ios
 ### 1.导入SDK
 
  下载[HeziSDK.zip文件](http://help.huodonghezi.com/hc/kb/article/195000/)，将zip文件解压，得到HeziSDK文件夹，将HeziSDK文件夹拖入工程即可。
@@ -78,6 +78,7 @@ banner.frame = CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_WIDTH/2+5);
 2. 使用方法
 
 - 在```AppDelegate.m```导入```HeziSDKCrashLogger.h```
+
 	``` objectivec
 		#import "HeziSDKCrashLogger.h"
 	```
