@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name = 'HeziSDK'
 s.version = '1.2.1'
-s.license = { :type => 'None', :file => 'LICENSE' }
+s.license = 'MIT'
 s.summary = '活动盒子SDK'
 s.homepage = 'https://github.com/mcmore/hezi-sdk-for-ios'
 s.authors = { 'mcmore' => 'ljcoder@163.com' }
